@@ -1,0 +1,1 @@
+export type MenuList = 'All Items' | 'About' | 'Logout' | 'Reset App State'

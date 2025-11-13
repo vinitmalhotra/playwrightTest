@@ -1,0 +1,22 @@
+{
+  "name": "playwrighttest",
+  "version": "1.0.0",
+  "description": "This repo will have playwright UI and API test automation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinitmalhotra/playwrightTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinitmalhotra/playwrightTest/issues"
+  },
+  "homepage": "https://github.com/vinitmalhotra/playwrightTest#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.2"
+  }
+}
