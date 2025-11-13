@@ -46,6 +46,8 @@ class Inventory extends BasePage {
 
 
 
+
+
 }
 
 export default Inventory
