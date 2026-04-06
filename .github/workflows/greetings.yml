@@ -6,6 +6,11 @@ on:
         environment: 
           default: st2
           required: true
+          type: choice
+          options:
+            - st2
+            - st4
+            - dev
 
         
 
