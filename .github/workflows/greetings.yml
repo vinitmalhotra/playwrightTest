@@ -3,7 +3,7 @@ name: Greetings
 on:
   workflow_dispatch:
    inputs:
-        environemnt: 
+        environment: 
           default: st2
           required: true
 
