@@ -2,6 +2,12 @@ name: Greetings
 
 on:
   workflow_dispatch:
+   inputs:
+        environemnt: 
+          default: st2
+          required: true
+
+        
 
 env:
   cloud: google-cloud
@@ -11,4 +17,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Environment files
-        run: echo $cloud ${{ vars.PROJECT_ID}} ${{ github.repository}}
+        run: echo $cloud ${{ vars.PROJECT_ID}} ${{ github.repository}} ${{ secrets.password}} Environment is $ {{ inputs.environment}}
