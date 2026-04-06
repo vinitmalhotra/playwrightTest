@@ -1,0 +1,14 @@
+name: Greetings
+
+on:
+  workflow_dispatch:
+
+env:
+  cloud: google-cloud
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Environment files
+        run: echo $cloud
