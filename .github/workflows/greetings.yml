@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Environment files
-        run: echo $cloud ${{ vars.PROJECT_ID}}
+        run: echo $cloud ${{ vars.PROJECT_ID}} ${{ github.repository}}
